@@ -1,19 +1,18 @@
 # Phonebook
 
-Данный скрипт построен на работе с классами в Python.
-Созданы 2 класса: PhoneBook и Contact.
+This script was made to get used to classes instance in Python.
+There are 2 classes: PhoneBook and Contact.
 
-Класс Contact имеет следующие атрибуты:
-- Имя, фамилия, телефонный номер - обязательные поля;
-- Избранный контакт - необязательное поле. По умолчанию False;
-- Дополнительная информация (e-mail, список дополнительных номеров, ссылки на соцсети).
+Contact class has attributes:
+- First name, second name, phone number - required fields;
+- Favourite contact - optional, False by default;
+- Additional information (e-mail, additional numbers, links to the social media).
 
-Класс PhoneBook имеет атрибут "название" и работает с классами Contact.
-Методы класса PhoneBook:
-- Вывод контактов из телефонной книги;
-- Добавление нового контакта;
-- Удаление контакта по номеру телефона;
-- Поиск всех избранных номеров;
-- Поиск контакта по имени и фамилии.
+PhoneBook class has attribute "name", works with Contact class instances and has methods:
+- Printing contacts;
+- Adding new contacts;
+- Deleting contacts by number;
+- Printing all favourite contacts;
+- Searching contacts by name.
 
-Код выполнен с соблюдением PEP8.
+The code was written according to PEP8.
