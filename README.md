@@ -1,6 +1,6 @@
 # Phonebook
 
-This script was made to get used to classes instance in Python.
+This script was made as a simple representation of how classes are used in Python.
 There are 2 classes: PhoneBook and Contact.
 
 Contact class has attributes:
